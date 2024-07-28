@@ -12,7 +12,7 @@ from aiohttp import web, ClientSession
 from aiohttp.web import middleware
 from aiohttp.web_exceptions import HTTPNotFound
 from multidict import MultiDict
-from PIL import Image, ImageDraw
+from PIL import Image
 
 
 UUID_BY_NAME = 'https://api.mojang.com/users/profiles/minecraft/'
